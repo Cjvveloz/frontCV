@@ -1,0 +1,66 @@
+/* selector{
+    propiedad: valor;
+} */
+
+/* selector de etiqueta */
+
+body{
+    background-color: white;
+
+   
+        
+    
+
+    .destacado{
+        letter-spacing: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #C4C4C4;
+        color: #005677;
+
+        
+    }
+    .subtitulo{
+        letter-spacing: 8px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        background-color: #C4C4C4;
+        color: #005677;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 84.69%;
+
+    }
+    .lista{
+        font-weight: bold;
+        font-style: italic;
+        
+    }
+
+    .fechas{
+        color: black;
+        font-weight: bold;
+    }
+    .piedepagina{
+        
+        color: white;
+        background-color: #005677;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;      
+        
+    }
+    .datolista{
+        font-weight: normal;
+    }
+
+
+
+
+    }
+
+
+    
+
