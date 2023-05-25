@@ -1,6 +1,4 @@
-/* selector{
-    propiedad: valor;
-} */
+
 
 /* selector de etiqueta */
 *{
@@ -8,63 +6,77 @@
     margin: 0%;
 }
 
-header{
-    
-    
-}
+
 body{
     
-    background-color: white;
+    background-image: url('../img/wallhaven-kx82d6_1920x1080.png');
     
     
     
     
    
     .logo{
-        text-align: center;
-        background-color: #E6E6E6;
-        background-image: url(../img/fondo-negro.webp);
+        text-align: left;
+        /* background-color: #E6E6E6;
         background-repeat: no-repeat;
-        background-size: cover;
-        ;
+        background-size: cover; */
+        
+    }
+    .navegador{
+        color: #F0F8FF;
+        font-family: 'Josefin Sans', sans-serif;
     }
     
 
-    .destacado{
-        letter-spacing: 8px;
-        text-align: center;
+    .principal{
+        letter-spacing: 6px;
+        text-align: left;
         text-transform: uppercase;
-        background-color: #C4C4C4;
-        color: #005677;
+        color: rgba(213, 214, 200, 0.974);
+        font-family: 'Josefin Sans', sans-serif;;
+        
 
         
     }
+    .datos{
+        text-align: left;
+        color: #F0F8FF;
+    }
+    
+    .parrafos {
+        text-align: left;
+        color: #F0F8FF;
+        font-family: 'Josefin Sans', sans-serif;
+    }
     .subtitulo{
         letter-spacing: 8px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
-        background-color: #C4C4C4;
-        color: #005677;
+        color: #2A9092;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 84.69%;
+        text-align: left;
 
     }
     .lista{
-        font-weight: bold;
-        font-style: italic;
+        font-family: 'Josefin Sans', sans-serif;;
         
     }
 
     .fechas{
         color: black;
         font-weight: bold;
+        
+    }
+    .navegador{
+        color: white;
+        text-align: center;
     }
     .piedepagina{
         
         color: white;
-        background-color: #005677;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -73,9 +85,15 @@ body{
     }
     .datolista{
         font-weight: normal;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
-
+    .final{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        align-items: center;
+    }
 
 
     }
