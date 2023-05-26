@@ -73,6 +73,15 @@ body{
     .navegador{
         color: white;
         text-align: center;
+        letter-spacing: 8px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        color: #2A9092;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 84.69%;
+        
     }
     .piedepagina{
         
@@ -94,7 +103,24 @@ body{
         text-align: center;
         align-items: center;
     }
-
+    .articulodemi{
+        text-align:  center;
+        
+        
+    }
+    .intro{
+        font-weight: bold;
+    }
+    .subtitulo2{
+        text-align:  center;
+    }
+    .principal2{
+        text-align:  center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: rgba(213, 214, 200, 0.974);
+        font-family: 'Josefin Sans', sans-serif;;
+    }
 
     }
 
